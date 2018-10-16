@@ -36,4 +36,4 @@ bot.on('ready', function(){
     console.log("Ready");
 });
 
-bot.login('NTAwMzIwMzk1NjY5NDA1NzE2.DqUWxA.K3Cr0nbDaMSV0Rl9MzfNV_02fCg');
+bot.login('NTAwMzIwMzk1NjY5NDA1NzE2.DqfSuA.IfKoVNlThenkYyemzPwU-i9mxZM');
