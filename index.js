@@ -3,14 +3,14 @@ const bot = new Discord.Client();
 
 //Command #1
 bot.on('message', (message)=>{
-    if(message.content == "*Events"){
+    if(message.content == "*events"){
         message.channel.sendMessage('https://www.instagram.com/p/BoiFHScHGJ0is4gSZkSxXdeDYzy8VyXqhy7LTU0/?taken-by=honk4lcse');
     }
 });
 //Command #2
 {
 bot.on('message', (message)=>{
-    if(message.content == "*Help"){
+    if(message.content == "*help"){
         message.channel.sendMessage('Coming Soon');
     }
 });
@@ -18,7 +18,7 @@ bot.on('message', (message)=>{
 //Command #3
 {
     bot.on('message',(message)=>{
-        if(message.content== "*News"){
+        if(message.content== "*news"){
             message.channel.sendMessage('https://twitter.com/NPSchools/status/1051517390155075585')
         }
     });
