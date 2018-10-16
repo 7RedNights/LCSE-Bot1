@@ -26,10 +26,10 @@ bot.on('message', (message)=>{
 //command #4
 {
     bot.on('message',(message)=>{
-        if(message.content== "*"){
-            message.channel.sendMessage()
+        if(message.content== "*Test"){
+            message.channel.sendMessage('Success!')
         }
-    })
+    });
 };
 
 bot.on('ready', function(){
